@@ -66,9 +66,11 @@ class App extends Component {
           onAdd={this.handleAdd}
           onReset={this.handleReset}
         />
-        <button className="reset" onClick={this.handleReset}>
-          Reset All
-        </button>
+        <footer>
+          <button className="reset" onClick={this.handleReset}>
+            Reset All
+          </button>
+        </footer>
       </>
     );
   }

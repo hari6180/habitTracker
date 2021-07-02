@@ -8,6 +8,16 @@ button {
   cursor: pointer;
 }
 
+section,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+}
+
 nav {
   background-color: blanchedalmond;
   display: flex;
@@ -48,8 +58,7 @@ nav {
 }
 
 .add-bar {
-  width: 40vh;
-  height: 5vh;
+  width: 10em;
   border-color: green;
   margin-right: 0.2em;
 }
