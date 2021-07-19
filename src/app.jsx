@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./app.css";
+import "./App.css";
 import Habits from "./components/habits";
 import Navbar from "./components/navbar";
 
@@ -66,9 +66,11 @@ class App extends Component {
           onAdd={this.handleAdd}
           onReset={this.handleReset}
         />
-        <button className="reset" onClick={this.handleReset}>
-          Reset All
-        </button>
+        <div class="reset_btn">
+          <button className="reset" onClick={this.handleReset}>
+            Reset All
+          </button>
+        </div>
       </>
     );
   }
